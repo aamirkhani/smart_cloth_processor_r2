@@ -1,0 +1,209 @@
+clear;clc;close all
+f=figure
+f.Position = [1510 42 1050 1314]
+
+%%
+data=csvread('LeArm_data__R9_delta__0.2__.txt');
+
+i=1
+len=6; S = data(:,i:(i-1 +len)); i=i+len;
+data=data( S(:,1)==1, :);
+
+
+%%
+
+i=1
+len=6; S = data(:,i:(i-1 +len)); i=i+len;
+
+len=3; S1Ap       = data(:,i:(i-1 +len)); i=i+len;
+len=4; S1Aq       = data(:,i:(i-1 +len)); i=i+len;
+len=3; S1Aright   = data(:,i:(i-1 +len)); i=i+len;
+len=3; S1Aup      = data(:,i:(i-1 +len)); i=i+len;
+len=3; S1Aforward = data(:,i:(i-1 +len)); i=i+len;
+
+len=3; S1Bp       = data(:,i:(i-1 +len)); i=i+len;
+len=4; S1Bq       = data(:,i:(i-1 +len)); i=i+len;
+len=3; S1Bright   = data(:,i:(i-1 +len)); i=i+len;
+len=3; S1Bup      = data(:,i:(i-1 +len)); i=i+len;
+len=3; S1Bforward = data(:,i:(i-1 +len)); i=i+len;
+
+len=3; S2p       = data(:,i:(i-1 +len)); i=i+len;
+len=4; S2q       = data(:,i:(i-1 +len)); i=i+len;
+len=3; S2right   = data(:,i:(i-1 +len)); i=i+len;
+len=3; S2up      = data(:,i:(i-1 +len)); i=i+len;
+len=3; S2forward = data(:,i:(i-1 +len)); i=i+len;
+
+len=3; S3p       = data(:,i:(i-1 +len)); i=i+len;
+len=4; S3q       = data(:,i:(i-1 +len)); i=i+len;
+len=3; S3right   = data(:,i:(i-1 +len)); i=i+len;
+len=3; S3up      = data(:,i:(i-1 +len)); i=i+len;
+len=3; S3forward = data(:,i:(i-1 +len)); i=i+len;
+
+len=3; S4p       = data(:,i:(i-1 +len)); i=i+len;
+len=4; S4q       = data(:,i:(i-1 +len)); i=i+len;
+len=3; S4right   = data(:,i:(i-1 +len)); i=i+len;
+len=3; S4up      = data(:,i:(i-1 +len)); i=i+len;
+len=3; S4forward = data(:,i:(i-1 +len)); i=i+len;
+
+len=3; S5p       = data(:,i:(i-1 +len)); i=i+len;
+len=4; S5q       = data(:,i:(i-1 +len)); i=i+len;
+len=3; S5right   = data(:,i:(i-1 +len)); i=i+len;
+len=3; S5up      = data(:,i:(i-1 +len)); i=i+len;
+len=3; S5forward = data(:,i:(i-1 +len)); i=i+len;
+
+
+len=3; S6p       = data(:,i:(i-1 +len)); i=i+len;
+len=4; S6q       = data(:,i:(i-1 +len)); i=i+len;
+len=3; S6right   = data(:,i:(i-1 +len)); i=i+len;
+len=3; S6up      = data(:,i:(i-1 +len)); i=i+len;
+len=3; S6forward = data(:,i:(i-1 +len)); i=i+len;
+
+
+clear i len
+%% visualize all
+
+i=1500
+v=[S1Ap;S1Bp];
+plot3(v(:,1),v(:,2),v(:,3),'.')
+set(gca, 'YDir','reverse')
+grid on
+xlabel('X')
+ylabel('Y')
+zlabel('Z')
+a=gca
+a.DataAspectRatio=[1 1 1]
+view(77,17)
+
+
+
+v=[S2p S2right
+ S2p S2up
+ S2p S2forward];
+hold on
+quiver3(v(:,1),v(:,2),v(:,3),v(:,4),v(:,5),v(:,6),2)
+hold off
+
+v=[S3p S3right
+ S3p S3up
+ S3p S3forward];
+hold on
+quiver3(v(:,1),v(:,2),v(:,3),v(:,4),v(:,5),v(:,6),2)
+hold off
+
+v=[S4p S4right
+ S4p S4up
+ S4p S4forward];
+hold on
+quiver3(v(:,1),v(:,2),v(:,3),v(:,4),v(:,5),v(:,6),2)
+hold off
+
+v=[S5p S5right
+ S5p S5up
+ S5p S5forward];
+hold on
+quiver3(v(:,1),v(:,2),v(:,3),v(:,4),v(:,5),v(:,6),2)
+hold off
+
+
+
+v=[S6p S6right
+ S6p S6up
+ S6p S6forward];
+hold on
+quiver3(v(:,1),v(:,2),v(:,3),v(:,4),v(:,5),v(:,6),2)
+hold off
+
+
+
+%% visualize all
+
+v=[S2p S2right
+ S2p S2up
+ S2p S2forward];
+quiver3(v(:,1),v(:,2),v(:,3),v(:,4),v(:,5),v(:,6),2)
+set(gca, 'YDir','reverse')
+grid on
+xlabel('X')
+ylabel('Y')
+zlabel('Z')
+a=gca
+a.DataAspectRatio=[1 1 1]
+%view(77,17)
+
+%%
+v=[S2p];
+plot3(v(:,1),v(:,2),v(:,3),'g.');
+set(gca, 'YDir','reverse')
+grid on
+xlabel('X')
+ylabel('Y')
+zlabel('Z')
+a=gca
+a.DataAspectRatio=[1 1 1]
+
+hold on
+v=[S3p];
+plot3(v(:,1),v(:,2),v(:,3),'b.');
+hold off
+
+hold on
+v=[S4p];
+plot3(v(:,1),v(:,2),v(:,3),'r.');
+hold off
+
+hold on
+v=[S5p];
+plot3(v(:,1),v(:,2),v(:,3),'k.');
+hold off
+
+hold on
+v=[S6p];
+plot3(v(:,1),v(:,2),v(:,3),'ko');
+hold off
+%%
+Zmin=-25
+Zmax=25
+v=[S1Ap]
+v=v( v(:,3)>Zmin & v(:,3)<Zmax , :)
+plot3(v(:,1),v(:,2),v(:,3),'b.');
+
+
+%v=[S1Bp];
+%hold on
+%plot3(v(:,1),v(:,2),v(:,3),'k.');
+%hold off
+
+set(gca, 'YDir','reverse')
+grid on
+xlabel('X')
+ylabel('Y')
+zlabel('Z')
+a=gca
+a.DataAspectRatio=[1 1 1]
+
+
+
+%% find closest
+X=[82.3  104.6  -24.3]
+
+S1p = (S1Ap+S1Bp)/2
+
+[B,I]=sort(sum((S1p-X).^2,2)  )
+figure
+plot(B)
+
+S( I(1), :)
+
+
+data2=[S S1p S2up]
+csvwrite('data2',data2)
+
+
+
+
+
+
+ 
+
+
+ 

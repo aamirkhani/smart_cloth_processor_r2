@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 77acf9acd97d3b048bd41aee8a372e51
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Articulation1 - 1M1
+    100002: Articulation1 - 1M2
+    100004: Articulation1 - 1M3
+    100006: Articulation2 - 2M1
+    100008: Articulation2 - 2M2H
+    100010: Articulation2 - 2M2M
+    100012: Articulation2 - T2M1BD
+    100014: Articulation2 - T2M1BI
+    100016: Articulation3 - 3M1
+    100018: Articulation3 - 3M2
+    100020: Articulation3 - 3M2C
+    100022: Articulation3 - T3M1C
+    100024: Articulation4 - 4M1
+    100026: Articulation4 - 4M2
+    100028: Articulation4 - 4M2C
+    100030: Articulation4 - T4M1E
+    100032: Base__Potes
+    100034: //RootNode
+    100036: Camera
+    100038: Cover__Tapa 2M1
+    100040: Cover__Tapa 3M1
+    100042: Cover__Tapa 4M1
+    100044: Cover__Tapa TBB
+    100046: ElectronicsBox__Box
+    100048: ElectronicsBox__Fan Module
+    100050: ElectronicsBox__Suport Drivers
+    100052: Light
+    100054: MachineTool__Bottom Plate
+    100056: MachineTool__Cilinder
+    100058: MachineTool__Gripper Left
+    100060: MachineTool__Gripper Right
+    100062: MachineTool__Idol Gear
+    100064: MachineTool__Pivot Arm
+    100066: Servo Gear
+    100068: Top Plate
+    400000: Articulation1 - 1M1
+    400002: Articulation1 - 1M2
+    400004: Articulation1 - 1M3
+    400006: Articulation2 - 2M1
+    400008: Articulation2 - 2M2H
+    400010: Articulation2 - 2M2M
+    400012: Articulation2 - T2M1BD
+    400014: Articulation2 - T2M1BI
+    400016: Articulation3 - 3M1
+    400018: Articulation3 - 3M2
+    400020: Articulation3 - 3M2C
+    400022: Articulation3 - T3M1C
+    400024: Articulation4 - 4M1
+    400026: Articulation4 - 4M2
+    400028: Articulation4 - 4M2C
+    400030: Articulation4 - T4M1E
+    400032: Base__Potes
+    400034: //RootNode
+    400036: Camera
+    400038: Cover__Tapa 2M1
+    400040: Cover__Tapa 3M1
+    400042: Cover__Tapa 4M1
+    400044: Cover__Tapa TBB
+    400046: ElectronicsBox__Box
+    400048: ElectronicsBox__Fan Module
+    400050: ElectronicsBox__Suport Drivers
+    400052: Light
+    400054: MachineTool__Bottom Plate
+    400056: MachineTool__Cilinder
+    400058: MachineTool__Gripper Left
+    400060: MachineTool__Gripper Right
+    400062: MachineTool__Idol Gear
+    400064: MachineTool__Pivot Arm
+    400066: Servo Gear
+    400068: Top Plate
+    2000000: Camera
+    2100000: No Name
+    2300000: Articulation1 - 1M1
+    2300002: Articulation1 - 1M2
+    2300004: Articulation1 - 1M3
+    2300006: Articulation2 - 2M1
+    2300008: Articulation2 - 2M2H
+    2300010: Articulation2 - 2M2M
+    2300012: Articulation2 - T2M1BD
+    2300014: Articulation2 - T2M1BI
+    2300016: Articulation3 - 3M1
+    2300018: Articulation3 - 3M2
+    2300020: Articulation3 - 3M2C
+    2300022: Articulation3 - T3M1C
+    2300024: Articulation4 - 4M1
+    2300026: Articulation4 - 4M2
+    2300028: Articulation4 - 4M2C
+    2300030: Articulation4 - T4M1E
+    2300032: Base__Potes
+    2300034: Cover__Tapa 2M1
+    2300036: Cover__Tapa 3M1
+    2300038: Cover__Tapa 4M1
+    2300040: Cover__Tapa TBB
+    2300042: ElectronicsBox__Box
+    2300044: ElectronicsBox__Fan Module
+    2300046: ElectronicsBox__Suport Drivers
+    2300048: MachineTool__Bottom Plate
+    2300050: MachineTool__Cilinder
+    2300052: MachineTool__Gripper Left
+    2300054: MachineTool__Gripper Right
+    2300056: MachineTool__Idol Gear
+    2300058: MachineTool__Pivot Arm
+    2300060: Servo Gear
+    2300062: Top Plate
+    3300000: Articulation1 - 1M1
+    3300002: Articulation1 - 1M2
+    3300004: Articulation1 - 1M3
+    3300006: Articulation2 - 2M1
+    3300008: Articulation2 - 2M2H
+    3300010: Articulation2 - 2M2M
+    3300012: Articulation2 - T2M1BD
+    3300014: Articulation2 - T2M1BI
+    3300016: Articulation3 - 3M1
+    3300018: Articulation3 - 3M2
+    3300020: Articulation3 - 3M2C
+    3300022: Articulation3 - T3M1C
+    3300024: Articulation4 - 4M1
+    3300026: Articulation4 - 4M2
+    3300028: Articulation4 - 4M2C
+    3300030: Articulation4 - T4M1E
+    3300032: Base__Potes
+    3300034: Cover__Tapa 2M1
+    3300036: Cover__Tapa 3M1
+    3300038: Cover__Tapa 4M1
+    3300040: Cover__Tapa TBB
+    3300042: ElectronicsBox__Box
+    3300044: ElectronicsBox__Fan Module
+    3300046: ElectronicsBox__Suport Drivers
+    3300048: MachineTool__Bottom Plate
+    3300050: MachineTool__Cilinder
+    3300052: MachineTool__Gripper Left
+    3300054: MachineTool__Gripper Right
+    3300056: MachineTool__Idol Gear
+    3300058: MachineTool__Pivot Arm
+    3300060: Servo Gear
+    3300062: Top Plate
+    4300000: Articulation1 - 1M1
+    4300002: Articulation1 - 1M2
+    4300004: Articulation1 - 1M3
+    4300006: Articulation2 - 2M1
+    4300008: Articulation2 - 2M2H
+    4300010: Articulation2 - 2M2M
+    4300012: Articulation2 - T2M1BD
+    4300014: Articulation2 - T2M1BI
+    4300016: Articulation3 - 3M1
+    4300018: Articulation3 - 3M2
+    4300020: Articulation3 - 3M2C
+    4300022: Articulation3 - T3M1C
+    4300024: Articulation4 - 4M1
+    4300026: Articulation4 - 4M2
+    4300028: Articulation4 - 4M2C
+    4300030: Articulation4 - T4M1E
+    4300032: Base__Potes
+    4300034: Cover__Tapa 2M1
+    4300036: Cover__Tapa 3M1
+    4300038: Cover__Tapa 4M1
+    4300040: Cover__Tapa TBB
+    4300042: MachineTool__Bottom Plate
+    4300044: MachineTool__Cilinder
+    4300046: MachineTool__Gripper Left
+    4300048: MachineTool__Gripper Right
+    4300050: MachineTool__Idol Gear
+    4300052: MachineTool__Pivot Arm
+    4300054: Servo Gear
+    4300056: Top Plate
+    4300058: ElectronicsBox__Box
+    4300060: ElectronicsBox__Fan Module
+    4300062: ElectronicsBox__Suport Drivers
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: Light
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

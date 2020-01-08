@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/BCN3D-Moveo___Assembed___V1.unity
+  isLoaded: 1
+  isActive: 1
