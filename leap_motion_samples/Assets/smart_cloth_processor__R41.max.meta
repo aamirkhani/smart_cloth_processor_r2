@@ -1,0 +1,795 @@
+fileFormatVersion: 2
+guid: 86426d28fed728e4093f39ad02bf3eaa
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: __OPTION1__Nema17mount_Isolated
+    100002: __OPTION1__Nema17mount_Isolated 1
+    100004: Box006
+    100006: Box007
+    100008: Box010
+    100010: Box011
+    100012: Box012
+    100014: Box013
+    100016: Box014
+    100018: Box015
+    100020: Box016
+    100022: Box017
+    100024: Box018
+    100026: Box019
+    100028: Box020
+    100030: Box021
+    100032: Box022
+    100034: Box023
+    100036: Box024
+    100038: Box028
+    100040: Box028 1
+    100042: Box035
+    100044: Box042
+    100046: Box042 1
+    100048: Box054
+    100050: Box054 (C)
+    100052: Box054 (D)
+    100054: Box054 1
+    100056: Box055
+    100058: Box055 (D)
+    100060: Box056
+    100062: Box056 1
+    100064: Box057
+    100066: Box057 1
+    100068: Box058
+    100070: Box058 (B)
+    100072: Box058 1
+    100074: Box059
+    100076: Box059 1
+    100078: Box060
+    100080: Box061
+    100082: Box062
+    100084: DEBUG_Nema17dummy__x_axis001
+    100086: DEBUG_Nema17dummy__x_axis002
+    100088: DEBUG_Nema17dummy__x_axis003
+    100090: DEBUG_Nema17dummy__x_axis004
+    100092: DEBUG_Nema17dummy__z_axis
+    100094: GT2_Belt_Coupler
+    100096: GT2_Belt_Coupler001
+    100098: GT2_Belt_Coupler002
+    100100: GT2_Belt_Coupler005
+    100102: GT2_Belt_Coupler007
+    100104: GT2_Belt_Coupler008
+    100106: GT2_Belt_Coupler009
+    100108: LAYER_0__Top_Cover
+    100110: LAYER_1_Middle_Cover
+    100112: LAYER_2__Bottom_Cover
+    100114: LAYER_2__Bottom_Tube009
+    100116: LAYER_2__Tube010
+    100118: LAYER_2__Tube011
+    100120: LAYER_2__Tube012
+    100122: LM8UU_by_3drap_dia8_001
+    100124: LM8UU_by_3drap_dia8_002
+    100126: LM8UU_by_3drap_dia8_003
+    100128: LM8UU_by_3drap_dia8_003 1
+    100130: Mount_BAR
+    100132: Mount_BAR001
+    100134: Mount_BAR__7cm_helper
+    100136: Mount_BAR__7cm_helper (2nd)
+    100138: Mount_BAR__7cm_helper (2nd)001
+    100140: Mount_BAR__7cm_helper001
+    100142: //RootNode
+    100144: TextPlus001
+    100146: TextPlus001 (C)
+    100148: TextPlus001 (D)
+    100150: TextPlus001 1
+    100152: TextPlus002
+    100154: TextPlus002 (C)
+    100156: TextPlus002 (D)
+    100158: TextPlus002 1
+    100160: TextPlus003
+    100162: TextPlus003 (C)
+    100164: TextPlus003 (D)
+    100166: TextPlus003 1
+    100168: TextPlus004
+    100170: TextPlus004 (C)
+    100172: TextPlus004 (D)
+    100174: TextPlus004 1
+    100176: TextPlus005
+    100178: TextPlus005 (C)
+    100180: TextPlus005 (D)
+    100182: TextPlus005 1
+    100184: TextPlus006
+    100186: TextPlus006 (C)
+    100188: TextPlus006 (D)
+    100190: TextPlus006 1
+    100192: TextPlus007
+    100194: TextPlus007 (C)
+    100196: TextPlus007 (D)
+    100198: TextPlus007 1
+    100200: Tube001
+    100202: Tube002
+    100204: Tube003
+    100206: Tube004
+    100208: Tube005
+    100210: Tube006
+    100212: Tube007
+    100214: Tube008
+    100216: Tube013
+    100218: Tube013 1
+    100220: Tube014
+    100222: Tube014 1
+    100224: Tube015
+    100226: Tube015 1
+    100228: Tube016
+    100230: Tube016 1
+    100232: Tube017
+    100234: Tube017 1
+    100236: Tube018
+    100238: Tube018 1
+    100240: X_(otherside)_axis____LAYER_1__(middle)_MOTOR001
+    100242: X_axis____LAYER_1__(middle)_MOTOR
+    100244: X_AXIS_HOLDER
+    100246: X_AXIS_HOLDER (C)
+    100248: X_AXIS_HOLDER (D)
+    100250: X_AXIS_HOLDER 1
+    100252: X_LinearRod__1
+    100254: X_LinearRod__2
+    100256: X_support_#003
+    100258: X_support_#2
+    100260: X_support_L
+    100262: X_support_L (C)
+    100264: X_support_L (C)001
+    100266: X_support_L 1
+    100268: X_support_L001
+    100270: X_support_L002 (good)
+    100272: XAXIS__HOLDER_A
+    100274: XAXIS__HOLDER_B
+    100276: XAXIS__HOLDER_C
+    100278: XAXIS__HOLDER_D
+    100280: XAXIS__HOLDERS
+    100282: Z_axis
+    100284: Z_axis____LAYER_0__(top)
+    100286: Z_axis____LAYER_1__(middle)
+    100288: Z_axis____LAYER_2__(bottom)
+    100290: Z_LinearRod__1
+    100292: Z_LinearRod__2
+    100294: zz__LAYER_1_Middle_Cover001
+    100296: zz__LAYER_1_Middle_Cover001 1
+    400000: __OPTION1__Nema17mount_Isolated
+    400002: __OPTION1__Nema17mount_Isolated 1
+    400004: Box006
+    400006: Box007
+    400008: Box010
+    400010: Box011
+    400012: Box012
+    400014: Box013
+    400016: Box014
+    400018: Box015
+    400020: Box016
+    400022: Box017
+    400024: Box018
+    400026: Box019
+    400028: Box020
+    400030: Box021
+    400032: Box022
+    400034: Box023
+    400036: Box024
+    400038: Box028
+    400040: Box028 1
+    400042: Box035
+    400044: Box042
+    400046: Box042 1
+    400048: Box054
+    400050: Box054 (C)
+    400052: Box054 (D)
+    400054: Box054 1
+    400056: Box055
+    400058: Box055 (D)
+    400060: Box056
+    400062: Box056 1
+    400064: Box057
+    400066: Box057 1
+    400068: Box058
+    400070: Box058 (B)
+    400072: Box058 1
+    400074: Box059
+    400076: Box059 1
+    400078: Box060
+    400080: Box061
+    400082: Box062
+    400084: DEBUG_Nema17dummy__x_axis001
+    400086: DEBUG_Nema17dummy__x_axis002
+    400088: DEBUG_Nema17dummy__x_axis003
+    400090: DEBUG_Nema17dummy__x_axis004
+    400092: DEBUG_Nema17dummy__z_axis
+    400094: GT2_Belt_Coupler
+    400096: GT2_Belt_Coupler001
+    400098: GT2_Belt_Coupler002
+    400100: GT2_Belt_Coupler005
+    400102: GT2_Belt_Coupler007
+    400104: GT2_Belt_Coupler008
+    400106: GT2_Belt_Coupler009
+    400108: LAYER_0__Top_Cover
+    400110: LAYER_1_Middle_Cover
+    400112: LAYER_2__Bottom_Cover
+    400114: LAYER_2__Bottom_Tube009
+    400116: LAYER_2__Tube010
+    400118: LAYER_2__Tube011
+    400120: LAYER_2__Tube012
+    400122: LM8UU_by_3drap_dia8_001
+    400124: LM8UU_by_3drap_dia8_002
+    400126: LM8UU_by_3drap_dia8_003
+    400128: LM8UU_by_3drap_dia8_003 1
+    400130: Mount_BAR
+    400132: Mount_BAR001
+    400134: Mount_BAR__7cm_helper
+    400136: Mount_BAR__7cm_helper (2nd)
+    400138: Mount_BAR__7cm_helper (2nd)001
+    400140: Mount_BAR__7cm_helper001
+    400142: //RootNode
+    400144: TextPlus001
+    400146: TextPlus001 (C)
+    400148: TextPlus001 (D)
+    400150: TextPlus001 1
+    400152: TextPlus002
+    400154: TextPlus002 (C)
+    400156: TextPlus002 (D)
+    400158: TextPlus002 1
+    400160: TextPlus003
+    400162: TextPlus003 (C)
+    400164: TextPlus003 (D)
+    400166: TextPlus003 1
+    400168: TextPlus004
+    400170: TextPlus004 (C)
+    400172: TextPlus004 (D)
+    400174: TextPlus004 1
+    400176: TextPlus005
+    400178: TextPlus005 (C)
+    400180: TextPlus005 (D)
+    400182: TextPlus005 1
+    400184: TextPlus006
+    400186: TextPlus006 (C)
+    400188: TextPlus006 (D)
+    400190: TextPlus006 1
+    400192: TextPlus007
+    400194: TextPlus007 (C)
+    400196: TextPlus007 (D)
+    400198: TextPlus007 1
+    400200: Tube001
+    400202: Tube002
+    400204: Tube003
+    400206: Tube004
+    400208: Tube005
+    400210: Tube006
+    400212: Tube007
+    400214: Tube008
+    400216: Tube013
+    400218: Tube013 1
+    400220: Tube014
+    400222: Tube014 1
+    400224: Tube015
+    400226: Tube015 1
+    400228: Tube016
+    400230: Tube016 1
+    400232: Tube017
+    400234: Tube017 1
+    400236: Tube018
+    400238: Tube018 1
+    400240: X_(otherside)_axis____LAYER_1__(middle)_MOTOR001
+    400242: X_axis____LAYER_1__(middle)_MOTOR
+    400244: X_AXIS_HOLDER
+    400246: X_AXIS_HOLDER (C)
+    400248: X_AXIS_HOLDER (D)
+    400250: X_AXIS_HOLDER 1
+    400252: X_LinearRod__1
+    400254: X_LinearRod__2
+    400256: X_support_#003
+    400258: X_support_#2
+    400260: X_support_L
+    400262: X_support_L (C)
+    400264: X_support_L (C)001
+    400266: X_support_L 1
+    400268: X_support_L001
+    400270: X_support_L002 (good)
+    400272: XAXIS__HOLDER_A
+    400274: XAXIS__HOLDER_B
+    400276: XAXIS__HOLDER_C
+    400278: XAXIS__HOLDER_D
+    400280: XAXIS__HOLDERS
+    400282: Z_axis
+    400284: Z_axis____LAYER_0__(top)
+    400286: Z_axis____LAYER_1__(middle)
+    400288: Z_axis____LAYER_2__(bottom)
+    400290: Z_LinearRod__1
+    400292: Z_LinearRod__2
+    400294: zz__LAYER_1_Middle_Cover001
+    400296: zz__LAYER_1_Middle_Cover001 1
+    2100000: No Name
+    2300000: __OPTION1__Nema17mount_Isolated
+    2300002: __OPTION1__Nema17mount_Isolated 1
+    2300004: Box006
+    2300006: Box007
+    2300008: Box010
+    2300010: Box011
+    2300012: Box012
+    2300014: Box013
+    2300016: Box014
+    2300018: Box015
+    2300020: Box016
+    2300022: Box017
+    2300024: Box018
+    2300026: Box019
+    2300028: Box020
+    2300030: Box021
+    2300032: Box022
+    2300034: Box023
+    2300036: Box024
+    2300038: Box028
+    2300040: Box028 1
+    2300042: Box035
+    2300044: Box042
+    2300046: Box042 1
+    2300048: Box054
+    2300050: Box054 (C)
+    2300052: Box054 (D)
+    2300054: Box054 1
+    2300056: Box055
+    2300058: Box056
+    2300060: Box056 1
+    2300062: Box057
+    2300064: Box057 1
+    2300066: Box058
+    2300068: Box058 (B)
+    2300070: Box058 1
+    2300072: Box059
+    2300074: Box059 1
+    2300076: Box060
+    2300078: Box061
+    2300080: Box062
+    2300082: DEBUG_Nema17dummy__x_axis001
+    2300084: DEBUG_Nema17dummy__x_axis002
+    2300086: DEBUG_Nema17dummy__x_axis003
+    2300088: DEBUG_Nema17dummy__x_axis004
+    2300090: DEBUG_Nema17dummy__z_axis
+    2300092: GT2_Belt_Coupler
+    2300094: GT2_Belt_Coupler001
+    2300096: GT2_Belt_Coupler002
+    2300098: GT2_Belt_Coupler005
+    2300100: GT2_Belt_Coupler007
+    2300102: GT2_Belt_Coupler008
+    2300104: GT2_Belt_Coupler009
+    2300106: LAYER_0__Top_Cover
+    2300108: LAYER_1_Middle_Cover
+    2300110: LAYER_2__Bottom_Cover
+    2300112: LAYER_2__Bottom_Tube009
+    2300114: LAYER_2__Tube010
+    2300116: LAYER_2__Tube011
+    2300118: LAYER_2__Tube012
+    2300120: LM8UU_by_3drap_dia8_001
+    2300122: LM8UU_by_3drap_dia8_002
+    2300124: LM8UU_by_3drap_dia8_003
+    2300126: LM8UU_by_3drap_dia8_003 1
+    2300128: Mount_BAR
+    2300130: Mount_BAR001
+    2300132: Mount_BAR__7cm_helper
+    2300134: Mount_BAR__7cm_helper (2nd)
+    2300136: Mount_BAR__7cm_helper (2nd)001
+    2300138: Mount_BAR__7cm_helper001
+    2300140: TextPlus001
+    2300142: TextPlus001 (C)
+    2300144: TextPlus001 (D)
+    2300146: TextPlus001 1
+    2300148: TextPlus002
+    2300150: TextPlus002 (C)
+    2300152: TextPlus002 (D)
+    2300154: TextPlus002 1
+    2300156: TextPlus003
+    2300158: TextPlus003 (C)
+    2300160: TextPlus003 (D)
+    2300162: TextPlus003 1
+    2300164: TextPlus004
+    2300166: TextPlus004 (C)
+    2300168: TextPlus004 (D)
+    2300170: TextPlus004 1
+    2300172: TextPlus005
+    2300174: TextPlus005 (C)
+    2300176: TextPlus005 (D)
+    2300178: TextPlus005 1
+    2300180: TextPlus006
+    2300182: TextPlus006 (C)
+    2300184: TextPlus006 (D)
+    2300186: TextPlus006 1
+    2300188: TextPlus007
+    2300190: TextPlus007 (C)
+    2300192: TextPlus007 (D)
+    2300194: TextPlus007 1
+    2300196: Tube001
+    2300198: Tube002
+    2300200: Tube003
+    2300202: Tube004
+    2300204: Tube005
+    2300206: Tube006
+    2300208: Tube007
+    2300210: Tube008
+    2300212: Tube013
+    2300214: Tube013 1
+    2300216: Tube014
+    2300218: Tube014 1
+    2300220: Tube015
+    2300222: Tube015 1
+    2300224: Tube016
+    2300226: Tube016 1
+    2300228: Tube017
+    2300230: Tube017 1
+    2300232: Tube018
+    2300234: Tube018 1
+    2300236: X_AXIS_HOLDER
+    2300238: X_AXIS_HOLDER (C)
+    2300240: X_AXIS_HOLDER (D)
+    2300242: X_AXIS_HOLDER 1
+    2300244: X_LinearRod__1
+    2300246: X_LinearRod__2
+    2300248: X_support_#003
+    2300250: X_support_#2
+    2300252: X_support_L
+    2300254: X_support_L (C)
+    2300256: X_support_L (C)001
+    2300258: X_support_L 1
+    2300260: X_support_L001
+    2300262: X_support_L002 (good)
+    2300264: Z_LinearRod__1
+    2300266: Z_LinearRod__2
+    2300268: zz__LAYER_1_Middle_Cover001
+    2300270: zz__LAYER_1_Middle_Cover001 1
+    3300000: __OPTION1__Nema17mount_Isolated
+    3300002: __OPTION1__Nema17mount_Isolated 1
+    3300004: Box006
+    3300006: Box007
+    3300008: Box010
+    3300010: Box011
+    3300012: Box012
+    3300014: Box013
+    3300016: Box014
+    3300018: Box015
+    3300020: Box016
+    3300022: Box017
+    3300024: Box018
+    3300026: Box019
+    3300028: Box020
+    3300030: Box021
+    3300032: Box022
+    3300034: Box023
+    3300036: Box024
+    3300038: Box028
+    3300040: Box028 1
+    3300042: Box035
+    3300044: Box042
+    3300046: Box042 1
+    3300048: Box054
+    3300050: Box054 (C)
+    3300052: Box054 (D)
+    3300054: Box054 1
+    3300056: Box055
+    3300058: Box056
+    3300060: Box056 1
+    3300062: Box057
+    3300064: Box057 1
+    3300066: Box058
+    3300068: Box058 (B)
+    3300070: Box058 1
+    3300072: Box059
+    3300074: Box059 1
+    3300076: Box060
+    3300078: Box061
+    3300080: Box062
+    3300082: DEBUG_Nema17dummy__x_axis001
+    3300084: DEBUG_Nema17dummy__x_axis002
+    3300086: DEBUG_Nema17dummy__x_axis003
+    3300088: DEBUG_Nema17dummy__x_axis004
+    3300090: DEBUG_Nema17dummy__z_axis
+    3300092: GT2_Belt_Coupler
+    3300094: GT2_Belt_Coupler001
+    3300096: GT2_Belt_Coupler002
+    3300098: GT2_Belt_Coupler005
+    3300100: GT2_Belt_Coupler007
+    3300102: GT2_Belt_Coupler008
+    3300104: GT2_Belt_Coupler009
+    3300106: LAYER_0__Top_Cover
+    3300108: LAYER_1_Middle_Cover
+    3300110: LAYER_2__Bottom_Cover
+    3300112: LAYER_2__Bottom_Tube009
+    3300114: LAYER_2__Tube010
+    3300116: LAYER_2__Tube011
+    3300118: LAYER_2__Tube012
+    3300120: LM8UU_by_3drap_dia8_001
+    3300122: LM8UU_by_3drap_dia8_002
+    3300124: LM8UU_by_3drap_dia8_003
+    3300126: LM8UU_by_3drap_dia8_003 1
+    3300128: Mount_BAR
+    3300130: Mount_BAR001
+    3300132: Mount_BAR__7cm_helper
+    3300134: Mount_BAR__7cm_helper (2nd)
+    3300136: Mount_BAR__7cm_helper (2nd)001
+    3300138: Mount_BAR__7cm_helper001
+    3300140: TextPlus001
+    3300142: TextPlus001 (C)
+    3300144: TextPlus001 (D)
+    3300146: TextPlus001 1
+    3300148: TextPlus002
+    3300150: TextPlus002 (C)
+    3300152: TextPlus002 (D)
+    3300154: TextPlus002 1
+    3300156: TextPlus003
+    3300158: TextPlus003 (C)
+    3300160: TextPlus003 (D)
+    3300162: TextPlus003 1
+    3300164: TextPlus004
+    3300166: TextPlus004 (C)
+    3300168: TextPlus004 (D)
+    3300170: TextPlus004 1
+    3300172: TextPlus005
+    3300174: TextPlus005 (C)
+    3300176: TextPlus005 (D)
+    3300178: TextPlus005 1
+    3300180: TextPlus006
+    3300182: TextPlus006 (C)
+    3300184: TextPlus006 (D)
+    3300186: TextPlus006 1
+    3300188: TextPlus007
+    3300190: TextPlus007 (C)
+    3300192: TextPlus007 (D)
+    3300194: TextPlus007 1
+    3300196: Tube001
+    3300198: Tube002
+    3300200: Tube003
+    3300202: Tube004
+    3300204: Tube005
+    3300206: Tube006
+    3300208: Tube007
+    3300210: Tube008
+    3300212: Tube013
+    3300214: Tube013 1
+    3300216: Tube014
+    3300218: Tube014 1
+    3300220: Tube015
+    3300222: Tube015 1
+    3300224: Tube016
+    3300226: Tube016 1
+    3300228: Tube017
+    3300230: Tube017 1
+    3300232: Tube018
+    3300234: Tube018 1
+    3300236: X_AXIS_HOLDER
+    3300238: X_AXIS_HOLDER (C)
+    3300240: X_AXIS_HOLDER (D)
+    3300242: X_AXIS_HOLDER 1
+    3300244: X_LinearRod__1
+    3300246: X_LinearRod__2
+    3300248: X_support_#003
+    3300250: X_support_#2
+    3300252: X_support_L
+    3300254: X_support_L (C)
+    3300256: X_support_L (C)001
+    3300258: X_support_L 1
+    3300260: X_support_L001
+    3300262: X_support_L002 (good)
+    3300264: Z_LinearRod__1
+    3300266: Z_LinearRod__2
+    3300268: zz__LAYER_1_Middle_Cover001
+    3300270: zz__LAYER_1_Middle_Cover001 1
+    4300000: Box028
+    4300002: Box035
+    4300004: Box042
+    4300006: GT2_Belt_Coupler001
+    4300008: GT2_Belt_Coupler002
+    4300010: LM8UU_by_3drap_dia8_003
+    4300012: Tube013
+    4300014: Tube014
+    4300016: Tube015
+    4300018: Tube016
+    4300020: zz__LAYER_1_Middle_Cover001
+    4300022: __OPTION1__Nema17mount_Isolated
+    4300024: Box058
+    4300026: Box059
+    4300028: Tube017
+    4300030: Tube018
+    4300032: DEBUG_Nema17dummy__z_axis
+    4300034: Tube008
+    4300036: Tube007
+    4300038: Tube006
+    4300040: Tube005
+    4300042: Box013
+    4300044: Box012
+    4300046: Box011
+    4300048: Box010
+    4300050: LAYER_0__Top_Cover
+    4300052: Tube004
+    4300054: Tube003
+    4300056: Tube002
+    4300058: Tube001
+    4300060: LM8UU_by_3drap_dia8_002
+    4300062: LM8UU_by_3drap_dia8_001
+    4300064: GT2_Belt_Coupler
+    4300066: Box024
+    4300068: Box023
+    4300070: Box022
+    4300072: Box021
+    4300074: Box020
+    4300076: Box019
+    4300078: Box018
+    4300080: Box017
+    4300082: Box016
+    4300084: Box015
+    4300086: Box014
+    4300088: Box007
+    4300090: Box006
+    4300092: LAYER_1_Middle_Cover
+    4300094: LAYER_2__Bottom_Tube009
+    4300096: LAYER_2__Tube010
+    4300098: LAYER_2__Tube011
+    4300100: LAYER_2__Tube012
+    4300102: LAYER_2__Bottom_Cover
+    4300104: Z_LinearRod__1
+    4300106: Z_LinearRod__2
+    4300108: X_LinearRod__1
+    4300110: X_LinearRod__2
+    4300112: DEBUG_Nema17dummy__x_axis001
+    4300114: DEBUG_Nema17dummy__x_axis002
+    4300116: X_support_L001
+    4300118: X_support_L
+    4300120: X_AXIS_HOLDER
+    4300122: TextPlus001
+    4300124: TextPlus002
+    4300126: TextPlus003
+    4300128: Box054
+    4300130: TextPlus005
+    4300132: TextPlus006
+    4300134: TextPlus004
+    4300136: TextPlus007
+    4300138: Box056
+    4300140: Box057
+    4300142: Box055
+    4300144: X_support_L
+    4300146: X_AXIS_HOLDER
+    4300148: Box054
+    4300150: TextPlus001
+    4300152: TextPlus002
+    4300154: TextPlus003
+    4300156: TextPlus004
+    4300158: TextPlus005
+    4300160: TextPlus006
+    4300162: TextPlus007
+    4300164: Box056
+    4300166: Box057
+    4300168: Box058 (B)
+    4300170: X_support_L002 (good)
+    4300172: TextPlus001 (D)
+    4300174: TextPlus002 (D)
+    4300176: TextPlus003 (D)
+    4300178: TextPlus004 (D)
+    4300180: TextPlus005 (D)
+    4300182: TextPlus006 (D)
+    4300184: TextPlus007 (D)
+    4300186: X_support_#2
+    4300188: X_AXIS_HOLDER (D)
+    4300190: Mount_BAR__7cm_helper (2nd)
+    4300192: Mount_BAR__7cm_helper
+    4300194: Box054 (D)
+    4300196: Mount_BAR
+    4300198: X_support_#003
+    4300200: TextPlus001 (C)
+    4300202: TextPlus002 (C)
+    4300204: TextPlus003 (C)
+    4300206: TextPlus004 (C)
+    4300208: TextPlus005 (C)
+    4300210: TextPlus006 (C)
+    4300212: TextPlus007 (C)
+    4300214: X_support_L (C)
+    4300216: X_AXIS_HOLDER (C)
+    4300218: Box054 (C)
+    4300220: Mount_BAR__7cm_helper (2nd)001
+    4300222: Mount_BAR__7cm_helper001
+    4300224: Mount_BAR001
+    4300226: X_support_L (C)001
+    4300228: DEBUG_Nema17dummy__x_axis003
+    4300230: DEBUG_Nema17dummy__x_axis004
+    4300232: __OPTION1__Nema17mount_Isolated
+    4300234: Box028
+    4300236: Box042
+    4300238: Box058
+    4300240: Box059
+    4300242: LM8UU_by_3drap_dia8_003
+    4300244: Tube013
+    4300246: Tube014
+    4300248: Tube015
+    4300250: Tube016
+    4300252: Tube017
+    4300254: Tube018
+    4300256: zz__LAYER_1_Middle_Cover001
+    4300258: GT2_Belt_Coupler005
+    4300260: Box060
+    4300262: Box061
+    4300264: Box062
+    4300266: GT2_Belt_Coupler007
+    4300268: GT2_Belt_Coupler008
+    4300270: GT2_Belt_Coupler009
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
