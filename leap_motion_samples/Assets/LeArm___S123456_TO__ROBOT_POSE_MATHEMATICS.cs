@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,11 +6,13 @@ using UnityEngine;
 public class LeArm___S123456_TO__ROBOT_POSE_MATHEMATICS : MonoBehaviour {
 
     private LeArm__MOTORS_TO_GRIPPER_POSE LeArm;
-	
-	// Update is called once per frame
-	void LateUpdate () {
-	    //LateUpdate_LOG_METRIX_HIERARCHY () {
-        }
+    public bool LogMatrixHierarchy = false;
+
+    // Update is called once per frame
+    void LateUpdate() {
+        if(LogMatrixHierarchy)
+            LateUpdate_LOG_METRIX_HIERARCHY();
+    }
 
     // Use this for initialization
     void Start () {
