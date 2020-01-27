@@ -84,6 +84,12 @@ public class LeArm___S123456_TO__ROBOT_POSE_MATHEMATICS : MonoBehaviour {
             i++;
         }
 
+        var machineLinearMotionServoController = GameObject.Find("MACHINE_DESIGN").GetComponent<MachineLinearMotionServoController>();
+        Debug.Log("Servo100_XAxis_Channe1=" + machineLinearMotionServoController.Servo100_XAxis_Channe1);
+        Debug.Log("Servo101_XAxis_Channe2=" + machineLinearMotionServoController.Servo101_XAxis_Channe2);
+        Debug.Log("Servo102_ZAxis_Channe1=" + machineLinearMotionServoController.Servo102_ZAxis_Channe1);
+        Debug.Log("Servo103_ZAxis_Channe2=" + machineLinearMotionServoController.Servo103_ZAxis_Channe2);
+
         Debug.Log("Servo1=" + LeArm.Servo1);
         Debug.Log("Servo2=" + LeArm.Servo2);
         Debug.Log("Servo3=" + LeArm.Servo3);
